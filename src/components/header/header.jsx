@@ -52,11 +52,11 @@ const header = () => {
                 </div>
                 <div className='menu-footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3'>
                     <div className='d-flex'>
-                        <a href={socialProfiles.facebook}>Facebook</a>
-                        <a href={socialProfiles.github}>GitHub</a>
-                        <a href={socialProfiles.twitter}>Twitter</a>
+                        <a href={socialProfiles.linkedin} target='_blank'>Linkedin</a>
+                        <a href={socialProfiles.github}target='_blank'>GitHub</a>
+                        <a href={socialProfiles.twitter} target='_blank'>Twitter</a>
                     </div>
-                    <p className='copyright m-0'>copyright __ {LOGOTEXT}</p>
+                    <p className='copyright m-0'>🖥️ {LOGOTEXT}</p>
                 </div>
                 </div>
             </header>
