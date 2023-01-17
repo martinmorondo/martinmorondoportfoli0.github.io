@@ -18,6 +18,12 @@
     width: 1.3em;
     height: 1.3em;
     fill: var(--text-color);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.stick_follow_icon svg:hover {
+    transform: scale(1.4);
 }
 
 .stick_follow_icon p {

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { WiMoonAltWaningCrescent4 } from "react-icons/wi";
+import "./toggle.css";
 
 const Toggle = () => {
 
