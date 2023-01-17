@@ -164,6 +164,6 @@ export {
     services,
     introData,
     contactConfig,
-    socialProfils,
+    socialProfiles,
     LOGOTEXT,
 };

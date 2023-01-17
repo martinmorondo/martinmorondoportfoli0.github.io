@@ -4,10 +4,10 @@ import {
   BrowserRouter as Router,
   useLocation,
 } from "react-router-dom";
-import withRouter from "../hooks/withRouter";
+import withRouter from "./hooks/withRouter";
 import AppRoutes from "./routes";
 import Header from './components/header/header';
-import AnimatedCursor from "../hooks/AnimatedCursor";
+import AnimatedCursor from "./hooks/AnimatedCursor";
 import './App.css';
 
 function _ScrollToTop(props) {
@@ -18,11 +18,9 @@ function _ScrollToTop(props) {
   }
 const ScrollToTop = withRouter(_ScrollToTop);
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={import.meta.env.PUBLIC_URL}>
       <div className='cursor-dot'>
       <AnimatedCursor 
         innerSize = {15}
@@ -41,4 +39,3 @@ function App() {
   )
 }
 
-export default App

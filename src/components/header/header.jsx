@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import "./style.css";
-import { VscGrabber, VscClose } from 'react-icons/vsc';
+// import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from 'react-router-dom';
 import { LOGOTEXT, socialProfiles
  } from '../../contentOption';
 import Toggle from '../themetoggle/toggle';
 
-const Header = () => {
+const header = () => {
 
     const [isActive, setActive] = useState('false');
 
@@ -20,6 +20,7 @@ const Header = () => {
             <header className='fixed-top site-header'>
                 <div className='d-flex align-items-center justify-content-between'>
                     <Link className='navbar-brand nav-ac' to="/">
+                        {LOGOTEXT}
                     </Link>
                     <div className='d-flex align-items-center'>
                         <Toggle />
@@ -35,7 +36,7 @@ const Header = () => {
                         <div className='menu-container p-3'>
                             <ul className='the-menu'>
                                 <li className='menu-item'>
-                                    <Link onClick={handleToggle} to="/" className='my-3'>Home</Link>
+                                    <Link onClick={handleToggle} to="/" className='my-3'>HomEEEEEEEEEEEEe</Link>
                                 </li>
 
                                 <li className='menu-item'>
@@ -69,4 +70,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default header;
