@@ -15,12 +15,13 @@ function _ScrollToTop(props) {
   useEffect(() => {
     window.scrollTo(0 , 0);
   }, [pathname]);
+  return props.children;
   }
 const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename={import.meta.env.PUBLIC_URL}>
+    <Router>
       <div className='cursor-dot'>
       <AnimatedCursor 
         innerSize = {15}

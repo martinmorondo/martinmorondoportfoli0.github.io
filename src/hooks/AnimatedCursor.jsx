@@ -1,4 +1,4 @@
-import React, { useEffect,useRef,useState,useCallback } from "react"
+import React, { useEffect , useRef , useState ,useCallback } from "react";
 
 const IsDevice = (() => {
     if (typeof navigator == 'undefined') return

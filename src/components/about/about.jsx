@@ -11,7 +11,7 @@ import {
 } from '../../contentOption';
 
 
-const About = () => {
+export const About = () => {
     return (
         <HelmetProvider>
             <Container className='About-header'>
@@ -100,4 +100,3 @@ const About = () => {
     );
 }
 
-export default About;
