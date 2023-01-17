@@ -7,3 +7,8 @@
 .menu-button {
     color: var(--text-color);
 }
+
+.menu-button:focus,
+.menu-button:hover {
+    color: var(--text-color);
+}
