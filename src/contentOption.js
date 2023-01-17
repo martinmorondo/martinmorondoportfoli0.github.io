@@ -148,7 +148,7 @@ const contactConfig = {
     YOUR_USER_ID: "user_id",
 };
 
-const socialProfils = {
+const socialProfiles = {
     github: "https://github.com",
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
