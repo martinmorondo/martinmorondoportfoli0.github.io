@@ -173,6 +173,7 @@
 
 .the-menu .menu-item>a {
     color: var(--text-color-2);
+    font-weight: bold;
     line-height: 1;
     font-size: 2rem;
     display: inline-block;

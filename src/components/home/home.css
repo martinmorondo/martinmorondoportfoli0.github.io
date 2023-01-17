@@ -96,6 +96,12 @@ section {
     background-position: center;
     min-height: 700px;
     position: relative;
+    transition: .3s;
+}
+
+.intro-sec .h-bg-image:hover {
+    transform: scale(0.9);
+    border-radius: 30px;
 }
 
 .ac-btn {
