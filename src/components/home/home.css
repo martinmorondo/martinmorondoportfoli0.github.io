@@ -104,7 +104,7 @@ section {
     border-radius: 30px;
 }
 
-.ac-btn {
+/* .ac-btn {
     padding: 4px 19px;
     color: var(--secondary-color);
     position: relative;
@@ -114,70 +114,200 @@ section {
     cursor: pointer;
     border-radius: 0;
     margin-right: 20px;
+} */
+
+.btn-10,
+.btn-10 *,
+.btn-10 :after,
+.btn-10 :before,
+.btn-10:after,
+.btn-10:before {
+  border: 0 solid;
+  box-sizing: border-box;
 }
+
+.btn-10 {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-10:disabled {
+  cursor: default;
+}
+
+.btn-10:-moz-focusring {
+  outline: auto;
+}
+
+.btn-10 svg {
+  display: block;
+}
+
+.btn-10 [hidden] {
+  display: none;
+}
+
+.btn-10 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-10 span {
+  mix-blend-mode: difference;
+}
+
+.btn-10:before {
+  background: #fff;
+  content: "";
+  display: block;
+  height: var(--height, 1em);
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(var(--progress, -100%));
+  transition: transform 0.5s ease, height 0.2s ease;
+  width: 100%;
+}
+
+.btn-10:hover:before {
+  --progress: 0;
+}
+
+.btn-10:active:before {
+  --height: 100%;
+}
+
+.btn-91,
+.btn-91 *,
+.btn-91 :after,
+.btn-91 :before,
+.btn-91:after,
+.btn-91:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-91 {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-91:disabled {
+  cursor: default;
+}
+
+.btn-91:-moz-focusring {
+  outline: auto;
+}
+
+.btn-91 svg {
+  display: block;
+}
+
+.btn-91 [hidden] {
+  display: none;
+}
+
+.btn-91 {
+  background: none;
+  border: 2px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  margin-left: 1.25rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-91 span {
+  font-weight: 900;
+}
+.btn-91:after,
+.btn-91:before {
+  border: 2px solid red;
+  border-radius: 999px;
+  content: "";
+  inset: -2px;
+  position: absolute;
+  z-index: -1;
+}
+.btn-91:after {
+  border-color: blue;
+}
+.btn-91:hover:before {
+  -webkit-animation: glitch-border 0.2s infinite;
+  animation: glitch-border 0.2s infinite;
+}
+.btn-91:hover:after {
+  animation: glitch-border 0.2s infinite reverse;
+}
+.btn-91:hover span {
+  -webkit-animation: glitch-text 0.2s infinite;
+  animation: glitch-text 0.2s infinite;
+}
+@-webkit-keyframes glitch-text {
+  0% {
+    text-shadow: 0 0 0 red, 0 0 0 blue;
+  }
+  to {
+    text-shadow: -2px 1px 0 red, 2px -1px 0 blue;
+  }
+}
+@keyframes glitch-text {
+  0% {
+    text-shadow: 0 0 0 red, 0 0 0 blue;
+  }
+  to {
+    text-shadow: -2px 1px 0 red, 2px -1px 0 blue;
+  }
+}
+@-webkit-keyframes glitch-border {
+  0% {
+    transform: translate(2px, -1px);
+  }
+  to {
+    transform: translate(-2px, -1px);
+  }
+}
+@keyframes glitch-border {
+  0% {
+    transform: translate(2px, -1px);
+  }
+  to {
+    transform: translate(-2px, -1px);
+  }
+}
+
 
 .ac-btn a {
     text-decoration: none;
-}
-
-.ac-btn:hover {
-    box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
-}
-
-.acb-tn:hover .one {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
-}
-
-.ac-btn:hover .two {
-    transform: translate3d(0px, 0px, 0px);
-}
-
-.ac-btn:hover .three {
-    transform: translate3d(0px, 0px, 0px);
-}
-
-.ac-btn:hover .four {
-    transform: translate3d(0px, 0px, 0px);
-}
-
-.ac-btn .ring {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: transparent;
-    top: 0;
-    left: 0;
-    transform: translate3d(0px, 90px, 0px);
-}
-
-.ac-btn .one {
-    background-color: #000;
-    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -3;
-    z-index: -4;
-}
-
-.ac-btn .two {
-    background-color: var(--primary-color);
-    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -3;
-}
-
-.ac-btn .three {
-    background-color: var(--secondary-color);
-    z-index: -2;
-    transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -3;
-}
-
-#button-p {
-    background: var(--secondary-color);
-    color: var(--primary-color);
-}
-
-#button-h:hover {
-    color: var(--primary-color)
 }
 
 .intro-sec .h-bg-image .block {

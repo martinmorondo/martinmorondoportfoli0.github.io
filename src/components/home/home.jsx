@@ -41,16 +41,16 @@ export const Home = () => {
                 <p className="mb-1x">{introData.description}</p>
                 <div className="intro-btn-action pb-5">
                   <Link to="/portfolio" className="text-2">
-                    <div id="button-p" className="ac-btn btn ">
-                      My Portfolio
+                    <div id="button-p" className="ac-btn btn btn-10">
+                      <span>My Portfolio</span>
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
                   </Link>
                   <Link to="/contact">
-                    <div id="button-h" className="ac_btn btn">
-                      Contact Me
+                    <div id="button-h" className="ac-btn btn btn-91">
+                      <span>Contact Me</span>
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
