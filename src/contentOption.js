@@ -12,8 +12,8 @@ const introData = {
         second: "I code cool websites",
         third: "I develop web apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/800px-Maradona-Mundial_86_con_la_copa.JPG",
+    description: "I am 23 years old and I am a Front End Developer. I am currently a student of Systems Engineering. I am passionate about technology, learning new skills and providing optimal and efficient solutions to any problem",
+    your_img_url: "https://onrz.net/wp-content/uploads/2022/03/computer-with-software-at-office.jpg",
 };
 
 const dataAbout = {
@@ -149,10 +149,9 @@ const contactConfig = {
 };
 
 const socialProfiles = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/martinmorondo",
+    linkedin: "https://www.linkedin.com/in/martin-morondo/",
+    twitter: "https://twitter.com/fSDev_10",
 };
 
 export {

@@ -36,7 +36,7 @@ const header = () => {
                         <div className='menu-container p-3'>
                             <ul className='the-menu'>
                                 <li className='menu-item'>
-                                    <Link onClick={handleToggle} to="/" className='my-3'>HomEEEEEEEEEEEEe</Link>
+                                    <Link onClick={handleToggle} to="/" className='my-3'>Home</Link>
                                 </li>
 
                                 <li className='menu-item'>
