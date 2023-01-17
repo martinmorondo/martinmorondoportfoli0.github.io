@@ -42,20 +42,6 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialProfiles.youtube && (
-          <li>
-            <a href={socialProfiles.youtube}>
-              <FaYoutube />
-            </a>
-          </li>
-        )}
-        {socialProfiles.twitch && (
-          <li>
-            <a href={socialProfiles.twitch}>
-              <FaTwitch />
-            </a>
-          </li>
-        )}
       </ul>
       <p>Follow Me</p>
     </div>
