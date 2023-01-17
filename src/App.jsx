@@ -8,14 +8,36 @@ import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Header from './components/header/header';
 import AnimatedCursor from "../hooks/AnimatedCursor";
-import './App.css'
+import './App.css';
+
+function _ScrollToTop(props) {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0 , 0);
+  }, [pathname]);
+  }
+const ScrollToTop = withRouter(_ScrollToTop);
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <div className='cursor-dot'>
+      <AnimatedCursor 
+        innerSize = {15}
+        outerSize = {15}
+        color = "255, 255, 255"
+        outerAlpha = {0.4}
+        innerScale = {0.7}
+        outerScale = {5}
+      />
+      </div>
+      <ScrollToTop>
+        <Header />
+        <AppRoutes />
+      </ScrollToTop>
+    </Router>
   )
 }
 
