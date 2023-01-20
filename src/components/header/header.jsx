@@ -22,37 +22,35 @@ const header = () => {
                 <div className='d-flex align-items-center justify-content-between'>
                 <div className='nav-menu'>
           <ul className='nav-list grid'>
+            
             <li className='nav-item'>
-              <a href = "#home" className='nav-link active-link'>
-                Home
-              </a>
+            <Link to="/about" className='my-3 nav-link'>Home</Link>
+            </li>
+            
+            <li className='nav-item'>
+            <Link to="/about" className='my-3 nav-link'>About</Link>
             </li>
 
             <li className='nav-item'>
-              <a href = "#home" className='nav-link'>
-                About
-              </a>
+            <Link to="/about" className='my-3 nav-link'>Portfolio</Link>
             </li>
 
             <li className='nav-item'>
-              <a href = "#skills" className='nav-link'>
-                Skills
-              </a>
+            <Link to="/about" className='my-3 nav-link'>Skills</Link>
             </li>
 
-            <li className='nav-item'>
-              <a href = "#portfolio" className='nav-link'>
-                Portfolio
-              </a>
+             <li className='nav-item'>
+            <Link to="/about" className='my-3 nav-link'>Contact</Link>
             </li>
 
-            <li className='nav-item'>
+            {/*<li className='nav-item'>
               <a href = "#contact" className='nav-link'>
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
+
                     {/* <Link className='navbar-brand nav-ac' to="/">
                         {LOGOTEXT}
                     </Link> */}
