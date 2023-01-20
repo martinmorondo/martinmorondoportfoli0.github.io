@@ -19,6 +19,14 @@
     height: 2em;
     fill: var(--text-color-2);
     color: var(--text-color-2);
+    margin-top: -25px;
+}
+
+@media screen and (max-width: 479px) {
+    .menu-button svg {
+        margin-left: 265px;
+        margin-top: -25px;
+    }
 }
 
 /* new navbar */

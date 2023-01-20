@@ -9,7 +9,7 @@
 }
 
 [data-theme = "light"] {
-  --bg-color: #ffffff;
+  --bg-color: #fff;
   --primary-color: #ffffff;
   --secondary-color: #000;
   --text-color: #000;

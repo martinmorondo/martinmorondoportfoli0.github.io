@@ -17,7 +17,7 @@ const Toggle = () => {
     
     return (
         <div className='nav-ac' onClick={themetoggle}>
-            <WiMoonAltWaningCrescent4 />
+            {/* <WiMoonAltWaningCrescent4 /> */}
         </div>
     );
 }
