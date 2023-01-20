@@ -5,7 +5,6 @@ import Typewriter from 'typewriter-effect';
 import { introData, meta } from '../../contentOption';
 import { Link } from "react-router-dom";
 
-
 export const Home = () => {
     return (
         <HelmetProvider>

@@ -13,7 +13,7 @@ const introData = {
         third: "I develop web apps",
     },
     description: "I am 23 years old and I am a Front End Developer. I am currently a student of Systems Engineering. I am passionate about technology, learning new skills and providing optimal and efficient solutions to any problem",
-    your_img_url: "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    your_img_url: "https://www.springboard.com/blog/wp-content/uploads/2022/08/programming-skills.png",
 };
 
 const dataAbout = {

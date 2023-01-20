@@ -18,10 +18,50 @@ const header = () => {
     return (
         <>
             <header className='fixed-top site-header'>
+
                 <div className='d-flex align-items-center justify-content-between'>
-                    <Link className='navbar-brand nav-ac' to="/">
+                <div className='nav-menu'>
+          <ul className='nav-list grid'>
+            <li className='nav-item'>
+              <a href = "#home" className='nav-link active-link'>
+                Home
+              </a>
+            </li>
+
+            <li className='nav-item'>
+              <a href = "#home" className='nav-link'>
+                About
+              </a>
+            </li>
+
+            <li className='nav-item'>
+              <a href = "#skills" className='nav-link'>
+                Skills
+              </a>
+            </li>
+
+            <li className='nav-item'>
+              <a href = "#services" className='nav-link'>
+                Services
+              </a>
+            </li>
+
+            <li className='nav-item'>
+              <a href = "#portfolio" className='nav-link'>
+                Portfolio
+              </a>
+            </li>
+
+            <li className='nav-item'>
+              <a href = "#contact" className='nav-link'>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+                    {/* <Link className='navbar-brand nav-ac' to="/">
                         {LOGOTEXT}
-                    </Link>
+                    </Link> */}
                     <div className='d-flex align-items-center'>
                         <Toggle />
                         <button className='menu-button nav-ac' onClick={handleToggle}>

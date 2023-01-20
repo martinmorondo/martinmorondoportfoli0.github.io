@@ -102,7 +102,7 @@ section {
     background-position: center;
     min-height: 700px;
     position: relative;
-    transition: .3s;
+    transition: .3s;   /* here */
 }
 
 .intro-sec .h-bg-image:hover {
@@ -339,7 +339,6 @@ section {
     width: 250px;
     height: 220px;
     border-radius: 100%;
-    /* mix-blend-mode: multiply; */
     background-color: #2f514e;
     z-index: 9999999999;
     display: flex;
@@ -348,12 +347,14 @@ section {
     justify-content: center;
 }
 
-@media (max-width:991.98px) {
+@media (max-width: 991.98px) {
+
     .intro-sec .h-bg-image {
         height: 600px;
         min-height: 75vh;
-        margin-bottom: 30px;
+        margin-bottom: 30px;     /* final here*/
     }
+
     .intro-sec .h-bg-image .block {
         top: unset;
         bottom: 0;
