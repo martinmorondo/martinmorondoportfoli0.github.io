@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
-
 export const AboutContent = styled.div`
   display: flex;
   gap: 5%;
   margin-top: 6.5rem;
+  font-family: monospace;
+  font-weight: 700;    
+  }
 `;
 
 export const AboutImageContainer = styled.div`
@@ -18,10 +20,10 @@ export const AboutImageContainer = styled.div`
     position: absolute;
     top: -1rem;
     left: -1rem;
-    background: #fcdf3e;
+    background: #F5FFFA;
     width: 100%;
     height: 100%;
-    border-radius: 1px;
+    border-radius: 30px;
     z-index: -2;
   }
 
@@ -31,7 +33,6 @@ export const AboutImageContainer = styled.div`
     inset: 0 0 0 0;
     background: rgb(13, 14, 14, 0.199);
     z-index: 2;
-  
 `;
 
 export const AboutImage = styled.img`
@@ -39,12 +40,12 @@ export const AboutImage = styled.img`
   height: 100%;
   object-fit: cover;
   position: relative;
-  border-radius: 1px;
+  border-radius: 30px;
 `;
 
 export const AboutDetailsContainer = styled.div`
   position: relative;
-  width: 50%;
+  width: 45%;
 `;
 
 export const Resume = styled.div`

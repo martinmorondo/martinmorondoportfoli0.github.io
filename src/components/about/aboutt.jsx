@@ -6,7 +6,6 @@ import {
   AboutImageContainer,
   Resume,
   ResumeLink,
-  
 } from "./About.styled";
 import { SectionHeading, SectionTitle } from "./SectionHeading";
 import { StyledParagraph } from "./Typography.styled";
@@ -18,13 +17,13 @@ export const About = () => {
   return (
     <>
       <SectionHeading dark="true" mb="3rem">
-        <SectionTitle dark="true" number="02">
+        <SectionTitle dark="true" number="profile">
           About Me
         </SectionTitle>
       </SectionHeading>
       <AboutContent>
         <AboutImageContainer>
-          <AboutImage src='https://cdn.eduonix.com/assets/images/header_img/2020100401144812373.jpg' />
+          <AboutImage src='https://avatars.mds.yandex.net/i?id=d61f21f09e59ff1a42ec95ae7141a6bc6f8afeba-8209451-images-thumbs&n=13&exp=1' />
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
@@ -40,7 +39,7 @@ export const About = () => {
           </StyledParagraph>
           <Resume>
             <ResumeLink
-            //   href={resume}
+              href={resume}
               icon={downloadIcon}
               download="resume-martin-morondo"
             >
