@@ -10,14 +10,14 @@ import {
 import { SectionHeading, SectionTitle } from "./SectionHeading";
 import { StyledParagraph } from "./Typography.styled";
 // import myImage from "../../assets/img/profile.png";
-import downloadIcon from "./donwload-icon.svg";
+import downloadIcon from "./svg/donwload-icon.svg";
 import resume from "../../assets/img/CV..pdf";
 
 export const About = () => {
   return (
     <>
       <SectionHeading dark="true" mb="3rem">
-        <SectionTitle dark="true" number="profile">
+        <SectionTitle dark="true">                {/* number="profile" */}
           About Me
         </SectionTitle>
       </SectionHeading>
@@ -46,6 +46,7 @@ export const About = () => {
               Download Resume
             </ResumeLink>
           </Resume>
+
         </AboutDetailsContainer>
       </AboutContent>
     </>
