@@ -4,7 +4,7 @@ import withRouter from "./hooks/withRouter";
 import { Home } from "./components/home/home";
 // import { Portfolio } from "../pages/portfolio";
 // import { ContactUs } from "../pages/contact";
-import { About } from "./components/about/about";
+import { About } from './components/about/aboutt';
 import { Socialicons } from "./components/socialIcons/icons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 

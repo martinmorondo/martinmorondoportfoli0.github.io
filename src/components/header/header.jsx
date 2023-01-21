@@ -4,7 +4,7 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from 'react-router-dom';
 import { LOGOTEXT, socialProfiles
  } from '../../contentOption';
-import Toggle from '../themetoggle/toggle';
+// import Toggle from '../themetoggle/toggle';
 
 const header = () => {
 
@@ -24,7 +24,7 @@ const header = () => {
           <ul className='nav-list grid'>
             
             <li className='nav-item'>
-            <Link to="/about" className='my-3 nav-link'>Home</Link>
+            <Link to="/home" className='my-3 nav-link'>Home</Link>
             </li>
             
             <li className='nav-item'>
@@ -32,11 +32,11 @@ const header = () => {
             </li>
 
             <li className='nav-item'>
-            <Link to="/about" className='my-3 nav-link'>Portfolio</Link>
+            <Link to="/portfolio" className='my-3 nav-link'>Portfolio</Link>
             </li>
 
             <li className='nav-item'>
-            <Link to="/about" className='my-3 nav-link'>Skills</Link>
+            <Link to="/skills" className='my-3 nav-link'>Skills</Link>
             </li>
 
              <li className='nav-item'>
@@ -55,7 +55,7 @@ const header = () => {
                         {LOGOTEXT}
                     </Link> */}
                     <div className='d-flex align-items-center'>
-                        <Toggle />
+                        {/* <Toggle /> */}
                         <button className='menu-button nav-ac' onClick={handleToggle}>
                             {!isActive ? <VscClose /> : <VscGrabber />}
                         </button>
