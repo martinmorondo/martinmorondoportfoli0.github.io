@@ -16,6 +16,11 @@ export const TechnologiesIcons = styled.div`
 
 export const TechnologyIcon = styled.img`
   height: 32px;
+  transition: .3s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 
   @media all and (max-width: 768px) {
     height: 24px;

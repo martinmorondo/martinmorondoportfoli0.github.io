@@ -99,3 +99,4 @@ export const ResumeLink = styled.a`
     transform: translateX(0);
   }
 `;
+
