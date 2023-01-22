@@ -6,11 +6,11 @@ export const SectionHeading = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: ${(props) => props.mb || "3rem"};
+  margin-bottom: 10px;
 `;
 
 export const SectionTitle = styled.h2`
-  margin-bottom: 0.5rem;
+  margin-bottom: -25px;
   position: relative;
   font-size: 3rem;
   font-weight: 800;
@@ -18,6 +18,7 @@ export const SectionTitle = styled.h2`
   z-index: 1;
   color: ${(props) => (props.dark ? "#f2f2f2" : "#262637")};
   display: inline-block;
+  text-shadow: 0px 0px 8px red;
 
   &::after {
     position: absolute;

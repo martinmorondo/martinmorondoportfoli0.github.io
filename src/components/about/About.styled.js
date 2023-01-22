@@ -37,7 +37,7 @@ export const AboutImageContainer = styled.div`
 
 export const AboutImage = styled.img`
   width: 100%;
-  height: 100%;
+  height: 99%;
   object-fit: cover;
   position: relative;
   border-radius: 30px;

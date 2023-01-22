@@ -13,7 +13,26 @@ import { StyledParagraph } from "./Typography.styled";
 import downloadIcon from "./svg/donwload-icon.svg";
 import resume from "../../assets/img/CV..pdf";
 
+import {
+    TechnologiesHeader,
+    TechnologiesIcons,
+    TechnologyIcon,
+} from '../technologies/Technologies.styled';
+import { iconsData } from '../technologies/icons';
+
 export const About = () => {
+
+  const technologiesHeader = {
+    color: '#fff',
+    marginTop: '1.5rem',
+    padding: '1rem'
+  }
+
+  const technologiesIcons = {
+    padding: '1.4rem',
+    margin: '0'
+  }
+
   return (
     <>
       <SectionHeading dark="true" mb="3rem">
@@ -47,8 +66,24 @@ export const About = () => {
             </ResumeLink>
           </Resume>
 
-        </AboutDetailsContainer>
+        </AboutDetailsContainer>       
       </AboutContent>
+
+      <TechnologiesHeader style={technologiesHeader}>Technologies I am familiar with</TechnologiesHeader>
+
+            <TechnologiesIcons style={technologiesIcons}>
+            {iconsData.map((iconData) => {
+            return (
+                <TechnologyIcon
+                key={iconData.id}
+                src={iconData.icon}
+                alt={iconData.name}
+                title={iconData.name}
+                {...iconData}
+                />
+            );
+        })}
+      </TechnologiesIcons>
     </>
   );
 };
