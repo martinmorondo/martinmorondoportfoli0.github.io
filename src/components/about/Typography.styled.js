@@ -9,9 +9,9 @@ export const StyledParagraph = styled.p`
 `;
 
 export const StyledLink = styled.a`
-  color: ${({ theme }) => theme.color.link};
+  color: #4353ff;
 
-  @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+  @media all and (max-width: 58.125rem) {
     display: block;
   }
 `;

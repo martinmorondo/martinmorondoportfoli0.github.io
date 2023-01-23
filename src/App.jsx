@@ -7,6 +7,9 @@ import {
 import withRouter from "./hooks/withRouter";
 import AppRoutes from "./routes";
 import Header from './components/header/header';
+import { Home } from './components/home/home';
+import { About } from './components/about/aboutt';
+import { Portfolio } from './components/portfolio/portfolio';
 import AnimatedCursor from "./hooks/AnimatedCursor";
 import './App.css';
 
@@ -34,9 +37,13 @@ export default function App() {
       </div>
       <ScrollToTop>
         <Header />
+        {/* <Home />      
+        <About />
+        <Portfolio /> */}
         <AppRoutes />
       </ScrollToTop>
     </Router>
   )
 }
 
+ {/*Agregué desde Home a Portfolio*/} 
