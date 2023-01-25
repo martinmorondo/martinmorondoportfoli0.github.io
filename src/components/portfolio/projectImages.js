@@ -1,3 +1,5 @@
+import project0 from "../../assets/img/city.jpeg";
+import project00 from "../../assets/img/responsive-city2.jpg";
 import project1 from "../../assets/img/coinbase-screen.png";
 import project11 from "../../assets/img/coinbase-clon.png";
 import project2 from "../../assets/img/web-page (1).png";
@@ -6,15 +8,18 @@ import project3 from "../../assets/img/Licuadora.jpeg";
 import project33 from "../../assets/img/licuadoraApagada.png";
 import project4 from "../../assets/img/puzzle-messi.jpeg";
 import project44 from "../../assets/img/Puzzle.jpeg";
-import project5 from "../../assets/img/lista-de-tareas.jpeg";
-import project55 from "../../assets/img/lista-tareas.png";
-import project6 from "../../assets/img/ecommerce.jpg";
-import project66 from "../../assets/img/ecommerce-2.png";
-import project7 from "../../assets/img/weather-app.png";
-import project77 from "../../assets/img/weather-app-2.png";
-
+import project5 from "../../assets/img/pokeapi.jpg";
+import project55 from "../../assets/img/pokeapi2.jpg";
+import project6 from "../../assets/img/lista-de-tareas.jpeg";
+import project66 from "../../assets/img/lista-tareas.png";
+import project7 from "../../assets/img/ecommerce.jpg";
+import project77 from "../../assets/img/ecommerce-2.png";
+import project8 from "../../assets/img/weather-app-2.png";
+import project88 from "../../assets/img/weather-app.png";
 
 export {
+    project0,
+    project00,
     project1,
     project11,
     project2,
@@ -29,4 +34,6 @@ export {
     project66,
     project7,
     project77,
+    project8,
+    project88,
 }

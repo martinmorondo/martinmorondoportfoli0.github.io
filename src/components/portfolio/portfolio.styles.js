@@ -21,6 +21,9 @@ export const Flex = css`
 export const StyledProjects = styled.section`
   background-color: #0c0c0c;;
   color: #111;
+  //background-image: url(https://pbs.twimg.com/media/C_dCWd5WsAAGYKI?format=jpg&name=4096x4096);
+  //background-repeat: no-repeat;
+  // background-size: cover;
 `;
 
 export const SectionHeading = styled.div`
@@ -157,8 +160,8 @@ export const ProjectLiveLink = styled.a`
 
 export const ProjectCard = styled.article`
   background: #fff;
-  width: 32rem;
-  height: 23rem;
+  width: 325px;            // 26rem
+  height: 155px;            // 20rem
   display: flex;
   justify-content: center;
   align-items: center;
