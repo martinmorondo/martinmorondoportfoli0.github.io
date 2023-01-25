@@ -1,15 +1,25 @@
 import {
     project1,
+    project11,
     project2,
+    project22,
     project3,
+    project33,
     project4,
+    project44,
+    project5,
+    project55,
+    project6,
+    project66,
+    project7,
+    project77,
 } from './projectImages';
 
 export const projectData = [
     {
         id: 1,
         image: project1,
-        transitionImage: project1,
+        transitionImage: project11,
         title: "in progress",
         codeLink: "#",
         liveLink: "#",
@@ -17,7 +27,7 @@ export const projectData = [
       {
         id: 2,
         image: project2,
-        transitionImage: project2,
+        transitionImage: project22,
         title: "in progress",
         codeLink: "#",
         liveLink: "#",
@@ -25,7 +35,7 @@ export const projectData = [
       {
         id: 3,
         image: project3,
-        transitionImage: project3,
+        transitionImage: project33,
         title: "in progress",
         codeLink: "#",
         liveLink: "#",
@@ -33,7 +43,31 @@ export const projectData = [
       {
         id: 4,
         image: project4,
-        transitionImage: project4,
+        transitionImage: project44,
+        title: "in progress",
+        codeLink: "#",
+        liveLink: "#",
+      },
+      {
+        id: 5,
+        image: project5,
+        transitionImage: project55,
+        title: "in progress",
+        codeLink: "#",
+        liveLink: "#",
+      },
+      {
+        id: 6,
+        image: project6,
+        transitionImage: project66,
+        title: "in progress",
+        codeLink: "#",
+        liveLink: "#",
+      },
+      {
+        id: 7,
+        image: project7,
+        transitionImage: project77,
         title: "in progress",
         codeLink: "#",
         liveLink: "#",

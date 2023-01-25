@@ -1,7 +1,7 @@
 import React from 'react';
-import { StyledParagraph, StyledLink } from '../about/Typography.styled.js';
+import { StyledParagraph, StyledLink } from './portfolio.styles';
 import {ProjectsContainer, StyledProjects } from './portfolio.styles.js';
-import { SectionHeading, SectionTitle } from '../about/SectionHeading.js';
+import { SectionHeading, SectionTitle } from './portfolio.styles.js';
 import { projectData } from './portfolioData.js';
 import ProjectCardComponent from './projectCard.jsx';
 
