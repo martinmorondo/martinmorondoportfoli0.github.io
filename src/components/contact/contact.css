@@ -1,0 +1,87 @@
+body {
+  background-color: #0c0c0c;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+form {
+  margin-top: 20px;
+  background: var(--dark);
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+  background-color: black;
+  box-shadow: 0 0 0 2px green;
+  border: none;
+  color: green;
+}
+
+.formInput:focus {
+  background-color: black;
+  outline: none;
+  box-shadow: 0 0 0 2px green;
+  color: #fff;
+}
+
+.formInput::placeholder {
+  color: green;
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 75px;
+  background-color: var(--green);
+}
+
+.submit-btn {
+  background-color: black;
+  color: green !important;
+  padding: 15px 50px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  transition: .3s;
+}
+
+.submit-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white !important;
+  border: 2px solid green;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+.submit-btn:disabled:hover {
+  background-color: black;
+  color: green !important;
+  cursor: wait;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
