@@ -35,10 +35,6 @@ const header = () => {
             <Link to="/portfolio" className='my-3 nav-link'>Portfolio</Link>
             </li>
 
-            <li className='nav-item'>
-            <Link to="/skills" className='my-3 nav-link'>Skills</Link>
-            </li>
-
              <li className='nav-item'>
             <Link to="/about" className='my-3 nav-link'>Contact</Link>
             </li>
@@ -67,8 +63,13 @@ const header = () => {
                     <div className='menu-wrapper'>
                         <div className='menu-container p-3'>
                             <ul className='the-menu'>
+
                                 <li className='menu-item'>
                                     <Link onClick={handleToggle} to="/" className='my-3'>Home</Link>
+                                </li>
+
+                                <li className='menu-item'>
+                                    <Link onClick={handleToggle} to="/about" className='my-3'>About</Link>
                                 </li>
 
                                 <li className='menu-item'>
@@ -76,8 +77,9 @@ const header = () => {
                                 </li>
 
                                 <li className='menu-item'>
-                                    <Link onClick={handleToggle} to="/about" className='my-3'>About</Link>
+                                    <Link onClick={handleToggle} to="/contact" className='my-3'>Contact</Link>
                                 </li>
+                                
                             </ul>
                         </div>
                     </div>
