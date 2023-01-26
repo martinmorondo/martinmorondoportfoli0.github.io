@@ -36,7 +36,7 @@ const header = () => {
             </li>
 
              <li className='nav-item'>
-            <Link to="/about" className='my-3 nav-link'>Contact</Link>
+            <Link to="/contact" className='my-3 nav-link'>Contact</Link>
             </li>
 
             {/*<li className='nav-item'>
@@ -79,7 +79,7 @@ const header = () => {
                                 <li className='menu-item'>
                                     <Link onClick={handleToggle} to="/contact" className='my-3'>Contact</Link>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>

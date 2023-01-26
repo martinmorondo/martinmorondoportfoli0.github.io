@@ -9,6 +9,7 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     textTransform: 'uppercase',
     marginBottom: '1rem',
+    fontWeight: 'bold',
   },
   form: {
     top: '50%',
@@ -21,11 +22,11 @@ export const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: '1rem',
-    color: 'tomato',
+    color: 'red',
     borderColor: 'tan',
   },
   field: {
-    margin: '1rem 0rem',
+    margin: '1.2rem 0rem',
   },
   modal: {
     display: 'flex',
@@ -43,7 +44,8 @@ export const useStyles = makeStyles((theme) => ({
 export const InputField = withStyles({
   root: {
     '& label.Mui-focused': {
-      color: 'tomato',
+      color: 'white',
+      marginBottom: '1.5rem',
     },
     '& label': {
       color: 'tan',

@@ -3,12 +3,14 @@ import css3 from '../../assets/technologies/css.svg';
 import sass from '../../assets/technologies/sass.svg';
 import bootstrap from '../../assets/technologies/bootstrap.svg';
 import javascript from '../../assets/technologies/javascript.svg';
+import jQuery from '../../assets/technologies/jQuery.svg';
 import reactJS from '../../assets/technologies/react.svg';
 import nodeJS from '../../assets/technologies/nodejs.svg';
 import git from '../../assets/technologies/git.svg';
 import github from '../../assets/technologies/github.svg';
 import npm from '../../assets/technologies/npm.svg';
 import vsc from '../../assets/technologies/vsc.svg';
+
 
 export const iconsData = [
     {
@@ -40,33 +42,39 @@ export const iconsData = [
 
       {
         id: 6,
+        icon: jQuery,
+        name: "jQuery",
+      },
+
+      {
+        id: 7,
         icon: reactJS,
         name: "ReactJS",
       },
 
       {
-        id: 7,
+        id: 8,
         icon: nodeJS,
         name: "Node js",
       },
     
       {
-        id: 8,
+        id: 9,
         icon: git,
         name: "Git",
       },
       {
-        id: 9,
+        id: 10,
         icon: github,
         name: "GitHub",
       },
       {
-        id: 10,
+        id: 11,
         icon: npm,
         name: "npm",
       },
       {
-        id: 11,
+        id: 12,
         icon: vsc,
         name: "Visual Studio Code",
       },

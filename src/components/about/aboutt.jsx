@@ -42,7 +42,7 @@ export const About = () => {
       </SectionHeading>
       <AboutContent>
         <AboutImageContainer>
-          <AboutImage src='https://avatars.mds.yandex.net/i?id=d61f21f09e59ff1a42ec95ae7141a6bc6f8afeba-8209451-images-thumbs&n=13&exp=1' />
+          <AboutImage src='https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/278569259_10228001137441671_739846762833112914_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zjAB4uvb1EcAX8F_nrr&_nc_ht=scontent.faep9-2.fna&oh=00_AfAhVKIF6MrMlzQNFDyPwUY1eToOui_b0hr9LgGWUQuB4A&oe=63D6EFA5' />
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>

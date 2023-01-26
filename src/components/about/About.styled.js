@@ -5,8 +5,7 @@ export const AboutContent = styled.div`
   gap: 5%;
   margin-top: 6.5rem;
   font-family: monospace;
-  font-weight: 700;    
-  }
+  font-weight: 700;   
 `;
 
 export const AboutImageContainer = styled.div`
@@ -33,6 +32,18 @@ export const AboutImageContainer = styled.div`
     inset: 0 0 0 0;
     background: rgb(13, 14, 14, 0.199);
     z-index: 2;
+
+    @media all and (max-width: 64rem) {
+      width: 100%;
+      height: 20rem;
+      margin-bottom: 1.75rem;
+  
+      &::after {
+        content: "";
+        top: -0.5rem;
+        left: -0.5rem;
+      }
+    }
 `;
 
 export const AboutImage = styled.img`
@@ -46,6 +57,10 @@ export const AboutImage = styled.img`
 export const AboutDetailsContainer = styled.div`
   position: relative;
   width: 45%;
+
+  @media all and (max-width: 64rem) {
+    width: 100%;
+  }
 `;
 
 export const Resume = styled.div`
@@ -73,6 +88,10 @@ export const Resume = styled.div`
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  @media all and (max-width: 64rem) {
+    margin-top: 1rem;
+  }
 `;
 
 export const ResumeLink = styled.a`
@@ -98,5 +117,8 @@ export const ResumeLink = styled.a`
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+
+  @media all and (max-width: 64rem) {
+    font-size: 1rem;
 `;
 
