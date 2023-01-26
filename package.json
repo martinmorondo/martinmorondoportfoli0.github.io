@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
     "bootstrap": "^5.2.3",
     "localforage": "^1.10.0",
