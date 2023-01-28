@@ -49,7 +49,7 @@ export const About = () => {
             My name is Martín Morondo and I am currently studying Systems Engineering at UNICEN. I am a passionate Front-end Developer based in Argentina.
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from scratch. The technologies, tools and languages I am using to build my projects are HTML, CSS, Javascript, jQuery, React JS, Bootstrap, Git, GitHub and VS Code.
+            I love to design and create responsive websites or web apps from scratch. The technologies, tools and languages I am using to build my projects are HTML, CSS, Javascript, jQuery, React JS, Bootstrap, Tailwind, Git, GitHub and VS Code.
           </StyledParagraph>
           <StyledParagraph>
             I have eagerness to learn something new every day and I love to
