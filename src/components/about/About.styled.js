@@ -11,7 +11,7 @@ export const AboutContent = styled.div`
 export const AboutImageContainer = styled.div`
   position: relative;
   width: 45%;
-  height: 28rem;
+  height: 25rem;
   z-index: 3;
 
   &::after {

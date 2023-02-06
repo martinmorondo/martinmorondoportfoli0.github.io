@@ -42,7 +42,7 @@ export const About = () => {
       </SectionHeading>
       <AboutContent>
         <AboutImageContainer>
-          <AboutImage src='https://github.com/martinmorondo/react-portfolio/blob/main/src/assets/img/Licuadora.jpeg?raw=true' />
+          <AboutImage src='https://github.com/martinmorondo/react-portfolio/blob/main/src/assets/img/profilee.jpg?raw=true' />
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
