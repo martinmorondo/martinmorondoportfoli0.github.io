@@ -24,9 +24,9 @@ export const projectData = [
       id: 0,
       image: project0,
       transitionImage: project00,
-      title: "Responsive City",
-      codeLink: "https://github.com/martinmorondo/Small-City",
-      liveLink: "https://elegant-belekoy-8180fc.netlify.app/",
+      title: "Movie App",
+      codeLink: "https://github.com/martinmorondo/movie-app",
+      liveLink: "https://scintillating-mooncake-f1005a.netlify.app/",
     },
     {
         id: 1,

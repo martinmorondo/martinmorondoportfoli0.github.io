@@ -1,5 +1,5 @@
-import project0 from "../../assets/img/city.jpeg";
-import project00 from "../../assets/img/responsive-city2.jpg";
+import project0 from "../../assets/img/movie-app.png";
+import project00 from "../../assets/img/movie-app-2.png";
 import project1 from "../../assets/img/coinbase-screen.png";
 import project11 from "../../assets/img/coinbase-clon.png";
 import project2 from "../../assets/img/web-page (1).png";
