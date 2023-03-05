@@ -15,7 +15,7 @@ import project66 from "../../assets/img/movie-app-2.png";
 import project7 from "../../assets/img/lista-de-tareas.jpeg";
 import project77 from "../../assets/img/lista-tareas.png";
 import project8 from "../../assets/img/pokeapi.jpg";
-import project8 from "../../assets/img/pokeapi2.jpg";
+import project88 from "../../assets/img/pokeapi2.jpg";
 import project9 from "../../assets/img/ecommerce.jpg";
 import project99 from "../../assets/img/ecommerce-2.png";
 import project10 from "../../assets/img/weather-app-2.png";
