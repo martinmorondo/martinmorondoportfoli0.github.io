@@ -77,8 +77,8 @@ export const projectData = [
         image: project6,
         transitionImage: project66,
         title: "Movie App",
-        codeLink: "https://scintillating-mooncake-f1005a.netlify.app",
-        liveLink: "https://github.com/martinmorondo/movie-app",
+        codeLink: "https://github.com/martinmorondo/movie-app",
+        liveLink: "https://scintillating-mooncake-f1005a.netlify.app",
       },
       {
         id: 7,
@@ -111,5 +111,13 @@ export const projectData = [
         title: "React Weather App",
         codeLink: "https://github.com/martinmorondo/proyect-react-weatherApp",
         liveLink: "https://superlative-madeleine-ddfbfa.netlify.app/",
+      },
+      {
+        id: 11,
+        image: project11,
+        transitionImage: project1010,
+        title: "React Weather App",
+        codeLink: "https://github.com/martinmorondo/react-twitter-follow-card",
+        liveLink: "https://genuine-cajeta-a582bc.netlify.app/",
       },
 ]

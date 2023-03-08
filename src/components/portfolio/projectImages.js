@@ -20,6 +20,8 @@ import project9 from "../../assets/img/ecommerce.jpg";
 import project99 from "../../assets/img/ecommerce-2.png";
 import project10 from "../../assets/img/weather-app-2.png";
 import project1010 from "../../assets/img/weather-app.png";
+import project11 from "../../assets/img/twitter-follow-card.png";
+import project1111 from "../../assets/img/twitter-follow-card-2.png";
 
 export {
     project0,
@@ -44,4 +46,6 @@ export {
     project99,
     project10,
     project1010,
+    project11,
+    project1111,
 }

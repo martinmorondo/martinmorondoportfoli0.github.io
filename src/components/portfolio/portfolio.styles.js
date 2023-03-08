@@ -195,6 +195,7 @@ export const ProjectCard = styled.article`
   @media all and (max-width: 64rem) {
     width: 25rem;
   }
+  
   @media all and (max-width: 58.125rem) {
     width: 100%;
   }
