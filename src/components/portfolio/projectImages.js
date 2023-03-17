@@ -22,6 +22,11 @@ import project10 from "../../assets/img/weather-app-2.png";
 import project1010 from "../../assets/img/weather-app.png";
 import project11 from "../../assets/img/twitter-follow-card.png";
 import project1111 from "../../assets/img/twitter-follow-card-2.png";
+import project12 from "../../assets/img/tic-tac-toe-1.png";
+import project1212 from "../../assets/img/tic-tac-toe-2.png";
+import project13 from "../../assets/img/chatbot-1.png";
+import project1313 from "../../assets/img/chatbot-2.png";
+
 
 export {
     project0,
@@ -48,4 +53,8 @@ export {
     project1010,
     project11,
     project1111,
+    project12,
+    project1212,
+    project13,
+    project1313,
 }

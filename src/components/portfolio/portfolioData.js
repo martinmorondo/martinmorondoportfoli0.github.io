@@ -1,6 +1,4 @@
 import {
-    project0,
-    project00,
     project1,
     project11,
     project2,
@@ -21,17 +19,15 @@ import {
     project99,
     project10,
     project1010,
+    project11,
+    project1111,
+    project12,
+    project1212,
+    project13,
+    project1313,
 } from './projectImages';
 
 export const projectData = [
-    {
-      id: 0,
-      image: project0,
-      transitionImage: project00,
-      title: "Coinbase clon",
-      codeLink: "https://github.com/martinmorondo/Clon-Coinbase",
-      liveLink: "https://deluxe-froyo-29ea67.netlify.app/",
-    },
     {
         id: 1,
         image: project1,
@@ -115,9 +111,27 @@ export const projectData = [
       {
         id: 11,
         image: project11,
-        transitionImage: project1010,
-        title: "React Weather App",
+        transitionImage: project1111,
+        title: "Twitter Follow Card",
         codeLink: "https://github.com/martinmorondo/react-twitter-follow-card",
         liveLink: "https://genuine-cajeta-a582bc.netlify.app/",
       },
+      {
+        id: 12,
+        image: project12,
+        transitionImage: project1212,
+        title: "Tic Tac Toe Game",
+        codeLink: "https://github.com/martinmorondo/tic-tac-toe-game",
+        liveLink: "https://velvety-dragon-098b69.netlify.app/",
+      },
+      {
+        id: 13,
+        image: project13,
+        transitionImage: project11313,
+        title: "React Chatbot",
+        codeLink: "https://github.com/martinmorondo/portfolio-chatbot",
+        liveLink: "https://bucolic-praline-a0d151.netlify.app/",
+      },
+
+
 ]
