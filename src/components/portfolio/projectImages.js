@@ -1,5 +1,3 @@
-import project0 from "../../assets/img/coinbase-screen.png";
-import project00 from "../../assets/img/coinbase-clon.png";
 import project1 from "../../assets/img/quiz-app.png";
 import project11 from "../../assets/img/quiz-app-2.png";
 import project2 from "../../assets/img/whack-a-mole.png";
@@ -29,8 +27,6 @@ import project1313 from "../../assets/img/chatbot-2.png";
 
 
 export {
-    project0,
-    project00,
     project1,
     project11,
     project2,
