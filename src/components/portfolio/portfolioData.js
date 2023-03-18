@@ -127,11 +127,9 @@ export const projectData = [
       {
         id: 13,
         image: project13,
-        transitionImage: project11313,
+        transitionImage: project1313,
         title: "React Chatbot",
         codeLink: "https://github.com/martinmorondo/portfolio-chatbot",
         liveLink: "https://bucolic-praline-a0d151.netlify.app/",
       },
-
-
 ]
