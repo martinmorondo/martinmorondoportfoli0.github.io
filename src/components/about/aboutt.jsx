@@ -11,7 +11,7 @@ import { SectionHeading, SectionTitle } from "./SectionHeading";
 import { StyledParagraph } from "./Typography.styled";
 // import myImage from "../../assets/img/profile.png";
 import downloadIcon from "./svg/donwload-icon.svg";
-import resume from "../../assets/img/CV..pdf";
+import resume from "../../assets/img/CV_MartínMorondo.pdf";
 
 import {
     TechnologiesHeader,
