@@ -25,6 +25,10 @@ import {
     projectOnce,
     project12,
     projectDoce,
+    project13,
+    projectTrece,
+    project14,
+    projectCatorce,
 } from './projectImages';
 
 export const projectData = [
@@ -47,7 +51,7 @@ export const projectData = [
       {
         id: 3,
         image: project2,
-        transitionImage: projectTres,
+        transitionImage: projectDos,
         title: "Own Webpage",
         codeLink: "https://github.com/martinmorondo/My-website",
         liveLink: "https://recursosparaprogramadore5.ml/",
@@ -128,6 +132,22 @@ export const projectData = [
         id: 13,
         image: project12,
         transitionImage: projectDoce,
+        title: "React Grocery Budget",
+        codeLink: "https://github.com/martinmorondo/react-grocery-budget-",
+        liveLink: "https://tourmaline-jalebi-9f1956.netlify.app/",
+      },
+      {
+        id: 13,
+        image: project13,
+        transitionImage: projectTrece,
+        title: "React Tours",
+        codeLink: "https://github.com/martinmorondo/react-tours",
+        liveLink: "https://iridescent-bienenstitch-08c89c.netlify.app/",
+      },
+       {
+        id: 13,
+        image: project14,
+        transitionImage: projectCatorce,
         title: "React Chatbot",
         codeLink: "https://github.com/martinmorondo/portfolio-chatbot",
         liveLink: "https://bucolic-praline-a0d151.netlify.app/",
