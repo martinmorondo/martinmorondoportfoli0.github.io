@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import {BiLinkExternal } from 'react-icons/bi';
 import { GoMarkGithub } from "react-icons/go";
 import { IconContext } from "react-icons";
+import { LanguagesContext } from '../../context/LanguagesContext';
+import { FormattedMessage } from "react-intl";
 import {
     LinkName,
     ProjectCard,
@@ -20,7 +22,11 @@ import {
     title,
     codeLink,
     liveLink,
-  }) => {
+  }) => 
+  {
+
+  const { changeLangToEs, changeLangToEn } = useContext(LanguagesContext);
+
     return (
         <>
             <IconContext.Provider value={{ size: "1rem" }}>
@@ -35,7 +41,9 @@ import {
               rel="noopener noreferrer"
             >
               <GoMarkGithub />
-              <LinkName>Github Code</LinkName>
+              <LinkName>
+                <FormattedMessage id="project-code" defaultMessage="Github" />               
+              </LinkName>
             </ProjectCodeLink>
             <ProjectLiveLink
               href={liveLink}
@@ -43,7 +51,9 @@ import {
               rel="noopener noreferrer"
             >
               <BiLinkExternal />
-              <LinkName>Live</LinkName>
+              <LinkName>
+                <FormattedMessage id="project-site" defaultMessage="Sitio" />                             
+              </LinkName>
             </ProjectLiveLink>
           </ProjectDetails>
         </ProjectCard>

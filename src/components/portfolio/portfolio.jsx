@@ -1,27 +1,33 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { StyledParagraph, StyledLink } from './portfolio.styles';
 import {ProjectsContainer, StyledProjects } from './portfolio.styles.js';
 import { SectionHeading, SectionTitle } from './portfolio.styles.js';
 import { projectData } from './portfolioData.js';
 import ProjectCardComponent from './projectCard.jsx';
+import { LanguagesContext } from '../../context/LanguagesContext';
+import { FormattedMessage } from "react-intl";
 
 export const Portfolio = () => {
+
+  const { changeLangToEs, changeLangToEn } = useContext(LanguagesContext);
+
     return (
         <StyledProjects id = "projects">
             <SectionHeading>
                 <SectionTitle>
-                    Projects
+                    <FormattedMessage id="project-title" defaultMessage="Projects" />
                 </SectionTitle>
             </SectionHeading>
             <StyledParagraph dark='true'
             textAlign = 'center'>
-                Selected projects I've worked on recently. {" "}
+                <FormattedMessage id = "project-subtitle" defaultMessage="Recently projects"/>
                 <StyledLink
                 href = 'https://github.com/martinmorondo'
                 target = '_blank'
                 rel = 'noopener noreferrer'
                 >
-                Want to see more?
+                    <FormattedMessage id = "project-subtitle-2" defaultMessage="See more"/>
+
                 </StyledLink>
             </StyledParagraph>
             <ProjectsContainer>

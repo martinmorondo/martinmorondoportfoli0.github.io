@@ -1,11 +1,16 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
 import 'react-toastify/dist/ReactToastify.min.css';
 import './contact.css';
+import { LanguagesContext } from '../../context/LanguagesContext';
+import { FormattedMessage } from "react-intl";
 
 export const Contacts = () => {
+
+  const { changeLangToEs, changeLangToEn } = useContext(LanguagesContext);
+
   const {
     register,
     handleSubmit,
@@ -69,7 +74,9 @@ export const Contacts = () => {
         <div className='row'>
           <div className='col-12 text-center'>
             <div className='contactForm'>
-              <h1>Let's keep in touch</h1>
+              <h1>
+                <FormattedMessage id="contact-title" defaultMessage="Contact" />                             
+              </h1>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
                 <div className='row formRow'>

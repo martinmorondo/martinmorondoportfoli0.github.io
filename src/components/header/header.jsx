@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from 'react-router-dom';
 import { LOGOTEXT, socialProfiles
  } from '../../contentOption';
 // import Toggle from '../themetoggle/toggle';
+import { LanguagesContext } from '../../context/LanguagesContext';
+import { FormattedMessage } from "react-intl";
 
 const header = () => {
+
+    const { changeLangToEs, changeLangToEn } = useContext(LanguagesContext);
 
     const [isActive, setActive] = useState('false');
 
@@ -18,38 +22,44 @@ const header = () => {
     return (
         <>
             <header className='fixed-top site-header'>
-
                 <div className='d-flex align-items-center justify-content-between'>
                 <div className='nav-menu'>
-          <ul className='nav-list grid'>
-            
-            <li className='nav-item'>
-            <Link to="/home" className='my-3 nav-link'>Home</Link>
-            </li>
-            
-            <li className='nav-item'>
-            <Link to="/about" className='my-3 nav-link'>About</Link>
-            </li>
+                <ul className='nav-list grid'>     
+                    <div className="languages-container">
+                        <button className='btn-es' onClick={changeLangToEs}></button>
+                        <button  className='btn-us' onClick={changeLangToEn}></button>
+                    </div>
 
-            <li className='nav-item'>
-            <Link to="/portfolio" className='my-3 nav-link'>Portfolio</Link>
-            </li>
+                    <li className='nav-item'>
+                    <Link to="/home" className='my-3 nav-link'> 
+                    <FormattedMessage id="navbar-home" defaultMessage="Home" />
+                    </Link>
+                    </li>
 
-             <li className='nav-item'>
-            <Link to="/contact" className='my-3 nav-link'>Contact</Link>
-            </li>
+                    <li className='nav-item'>
+                    <Link to="/about" className='my-3 nav-link'> 
+                    <FormattedMessage id="navbar-about" defaultMessage="About" />
+                    </Link>
+                    </li>
 
-            {/*<li className='nav-item'>
-              <a href = "#contact" className='nav-link'>
-                Contact
-              </a>
-            </li> */}
-          </ul>
-        </div>
+                    <li className='nav-item'>
+                    <Link to="/portfolio" className='my-3 nav-link'> 
+                    <FormattedMessage id="navbar-portfolio" defaultMessage="Portfolio" />
+                    </Link>
+                    </li>
 
-                    {/* <Link className='navbar-brand nav-ac' to="/">
-                        {LOGOTEXT}
-                    </Link> */}
+                    <li className='nav-item'>
+                    <Link to="/contact" className='my-3 nav-link'> 
+                    <FormattedMessage id="navbar-contact" defaultMessage="Contact" />
+                    </Link>
+                    </li>      
+
+                    {/* <li className='nav-item'>
+                        <Link to="/contact" className='my-3 nav-link'>Contact</Link>
+                    </li> */}
+                </ul>
+                </div>
+
                     <div className='d-flex align-items-center'>
                         {/* <Toggle /> */}
                         <button className='menu-button nav-ac' onClick={handleToggle}>
@@ -62,8 +72,7 @@ const header = () => {
                 <div className='bg-menu h-100'>
                     <div className='menu-wrapper'>
                         <div className='menu-container p-3'>
-                            <ul className='the-menu'>
-
+                            <ul className='the-menu'>                       
                                 <li className='menu-item'>
                                     <Link onClick={handleToggle} to="/" className='my-3'>Home</Link>
                                 </li>
@@ -79,7 +88,6 @@ const header = () => {
                                 <li className='menu-item'>
                                     <Link onClick={handleToggle} to="/contact" className='my-3'>Contact</Link>
                                 </li>
-
                             </ul>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   AboutContent,
   AboutDetailsContainer,
@@ -9,9 +9,10 @@ import {
 } from "./About.styled";
 import { SectionHeading, SectionTitle } from "./SectionHeading";
 import { StyledParagraph } from "./Typography.styled";
-// import myImage from "../../assets/img/profile.png";
 import downloadIcon from "./svg/donwload-icon.svg";
 import resume from "../../assets/img/CV_MartínMorondo.pdf";
+import { LanguagesContext } from '../../context/LanguagesContext';
+import { FormattedMessage } from "react-intl";
 
 import {
     TechnologiesHeader,
@@ -21,6 +22,8 @@ import {
 import { iconsData } from '../technologies/icons';
 
 export const About = () => {
+
+  const { changeLangToEs, changeLangToEn } = useContext(LanguagesContext);
 
   const technologiesHeader = {
     color: '#fff',
@@ -36,8 +39,8 @@ export const About = () => {
   return (
     <>
       <SectionHeading dark="true" mb="3rem">
-        <SectionTitle dark="true">                {/* number="profile" */}
-          About Me
+        <SectionTitle dark="true">
+          <FormattedMessage id="about-title" defaultMessage="About Me" />
         </SectionTitle>
       </SectionHeading>
       <AboutContent>
@@ -46,15 +49,13 @@ export const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Martín Morondo and I am currently studying Systems Engineering at UNICEN. I am a passionate Front-end Developer based in Argentina.
+            <FormattedMessage id="about-first-paragraph" defaultMessage="About Me" />
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from scratch. The technologies, tools and languages I am using to build my projects are HTML, CSS, Javascript, jQuery, React JS, Bootstrap, Tailwind, Git, GitHub and VS Code.
+            <FormattedMessage id="about-second-paragraph" defaultMessage="About Me" />
           </StyledParagraph>
           <StyledParagraph>
-            I have eagerness to learn something new every day and I love to
-            share my knowledge to my fellow students and developers. And I am
-            looking forward to talk with you!
+            <FormattedMessage id="about-third-paragraph" defaultMessage="About Me" />
           </StyledParagraph>
           <Resume>
             <ResumeLink
@@ -62,14 +63,16 @@ export const About = () => {
               icon={downloadIcon}
               download="resume-martin-morondo"
             >
-              Download Resume
+              <FormattedMessage id="btn_download-cv" defaultMessage="Download CV" />
             </ResumeLink>
           </Resume>
 
         </AboutDetailsContainer>       
       </AboutContent>
 
-      <TechnologiesHeader style={technologiesHeader}>Technologies I am familiar with</TechnologiesHeader>
+      <TechnologiesHeader style={technologiesHeader}>
+        <FormattedMessage id="techonologies" defaultMessage="Technologies" />
+      </TechnologiesHeader>
 
             <TechnologiesIcons style={technologiesIcons} className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
             {iconsData.map((iconData) => {
