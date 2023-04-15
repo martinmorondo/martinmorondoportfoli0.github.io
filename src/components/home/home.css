@@ -414,3 +414,15 @@ section {
 .intro-sec .h-bg-image {
     filter: saturate(0.5);
 }
+
+.languages-container {
+  position: absolute;
+  top: 25px;
+  right: 79px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 20px;
+  gap: 1rem;
+}
+

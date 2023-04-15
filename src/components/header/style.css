@@ -268,3 +268,54 @@
     margin-right: 10px;
     text-decoration: none;
 }
+
+.languages-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-es, .btn-us {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    /* margin: 0 0.5rem; */
+    margin-top: -50px;
+    cursor: pointer;
+  }
+  
+  .btn-es {
+    background-color: transparent; 
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_the_First_Spanish_Republic.svg/2560px-Flag_of_the_First_Spanish_Republic.svg.png');
+    background-size: 30px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-us {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_the_United_States_%281863-1865%29.svg/2560px-Flag_of_the_United_States_%281863-1865%29.svg.png');
+    background-size: 30px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    border: none;
+    font-size: 16px;
+    color: transparent;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 10px 20px 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
