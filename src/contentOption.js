@@ -21,28 +21,6 @@ const dataAbout = {
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 
-// const skills = [{
-//     name: "HTML",
-//     value: 90,
-// },
-// {
-//     name: "CSS",
-//     value: 85,
-// },
-// {
-//     name: "Javascript",
-//     value: 80,
-// },
-// {
-//     name: "React",
-//     value: 60,
-// },
-// {
-//     name: "Jquery",
-//     value: 85,
-// },
-// ];
-
 const socialProfiles = {
     github: "https://github.com/martinmorondo",
     linkedin: "https://www.linkedin.com/in/martin-morondo/",
