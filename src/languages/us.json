@@ -1,0 +1,51 @@
+{
+  
+  "navbar-home":"Home",
+  "navbar-about":"About",
+  "navbar-portfolio":"Portfolio",
+  "navbar-contact":"Contact",
+    
+  
+    "home-title": "I'm Martin Morondo",
+    "home-subtitle": "I am 23 years old and I am a Front End Developer. I am currently a student of Systems Engineering. I am passionate about technology, learning new skills and providing optimal and efficient solutions to any problem.",
+    "btn-portfolio":"Mi portfolio",
+    "btn-contact": "Contacto",
+    "introData": {
+      "title": "Soy Martin Morondo",
+      "animated": {
+        "first": "Me encanta programar 🖥️",
+        "second": "Creo sitios web geniales 🧑‍💻",
+        "third": "Desarrollo páginas web 💻"
+      },
+      "description": "Tengo 23 años y soy desarrollador Front End. Actualmente soy estudiante de Ingeniería de Sistemas. Me apasiona la tecnología, aprender nuevas habilidades y brindar soluciones óptimas y eficientes a cualquier problema",
+      "your_img_url": "https://4kwallpapers.com/images/walls/thumbs_3t/6196.jpg"
+    },
+
+  
+    "about-title": "About me",
+    "about-first-paragraph": "My name is Martín Morondo and I am currently studying Systems Engineering at UNICEN. I am a passionate Front-end Developer based in Argentina.",
+    "about-second-paragraph":"I love to design and create responsive websites or web applications from scratch. The technologies, tools and languages I use to build my projects are HTML, CSS, Javascript, jQuery, React JS, Typescript, Bootstrap, Tailwind, Git, GitHub and VS Code.",
+    "about-third-paragraph":"I am eager to learn something new every day and I love to share my knowledge with my colleagues and developers, and I look forward to talking to you!",
+    "btn_download-cv":"Download CV",
+    "techonologies": "Technologies I am familiar with",
+
+  
+    "project-title": "My projects",
+    "project-subtitle": "Projects I have been working on lately ",
+    "project-subtitle-2": "Want to see more?",
+    "project-technologies": "Used technologies ↓",
+    "project-site": "Live",
+    "project-code": "GitHub Code",
+    
+  
+    "contact-title": "Let's keep in touch",
+    "form-label": "Contact me!",
+    "label-name": "Full Name",
+    "label-email": "E-Mail",
+    "label-subject": "Subject",
+    "label-message": "Message",
+    "send-btn": "Send",
+  
+    "footer-update": "Last update April--2023"
+
+  }
