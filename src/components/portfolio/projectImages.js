@@ -1,64 +1,70 @@
 import project0 from "../../assets/img/quiz-app.png";
-import projectCero from "../../assets/img/quiz-app-2.png";
+import projectZero from "../../assets/img/quiz-app-2.png";
 import project1 from "../../assets/img/whack-a-mole.png";
-import projectUno from "../../assets/img/whack-a-mole-2.png";
+import projectOne from "../../assets/img/whack-a-mole-2.png";
 import project2 from "../../assets/img/web-page (1).png";
-import projectDos from "../../assets/img/web-page-22.png";
-import project3 from "../../assets/img/Licuadora.jpeg";
-import projectTres from "../../assets/img/licuadoraApagada.png";
+import projectTwo from "../../assets/img/web-page-22.png";
+// import project3 from "../../assets/img/Licuadora.jpeg";
+// import projectTres from "../../assets/img/licuadoraApagada.png";
 import project4 from "../../assets/img/puzzle-messi.jpeg";
-import projectCuatro from "../../assets/img/Puzzle.jpeg";
+import projectFour from "../../assets/img/Puzzle.jpeg";
 import project5 from "../../assets/img/movie-app.png";
-import projectCinco from "../../assets/img/movie-app-2.png";
+import projectFive from "../../assets/img/movie-app-2.png";
 import project6 from "../../assets/img/lista-de-tareas.jpeg";
-import projectSeis from "../../assets/img/lista-tareas.png";
+import projectSix from "../../assets/img/lista-tareas.png";
 import project7 from "../../assets/img/pokeapi.jpg";
-import projectSiete from "../../assets/img/pokeapi2.jpg";
+import projectSeven from "../../assets/img/pokeapi2.jpg";
 import project8 from "../../assets/img/ecommerce.jpg";
-import projectOcho from "../../assets/img/ecommerce-2.png";
+import projectEight from "../../assets/img/ecommerce-2.png";
 import project9 from "../../assets/img/weather-app-2.png";
-import projectNueve from "../../assets/img/weather-app.png";
+import projectNine from "../../assets/img/weather-app.png";
 import project10 from "../../assets/img/twitter-follow-card.png";
-import projectDiez from "../../assets/img/twitter-follow-card-2.png";
-import project11 from "../../assets/img/tic-tac-toe-1.png";
-import projectOnce from "../../assets/img/tic-tac-toe-2.png";
-import project12 from "../../assets/img/grocery-bud.png";
-import projectDoce from "../../assets/img/grocery-bud-2.png";
-import project13 from "../../assets/img/react-tour.png";
-import projectTrece from "../../assets/img/react-tour-2.png";
-import project14 from "../../assets/img/chatbot-1.png";
-import projectCatorce from "../../assets/img/chatbot-2.png";
+import projectTen from "../../assets/img/twitter-follow-card-2.png";
+import project11 from "../../assets/img/react-gym.png";
+import projectEleven from "../../assets/img/react-gym-2.png";
+import project12 from "../../assets/img/tic-tac-toe-1.png";
+import projectTwelve from "../../assets/img/tic-tac-toe-2.png";
+import project13 from "../../assets/img/grocery-bud.png";
+import projectThirteen from "../../assets/img/grocery-bud-2.png";
+import project14 from "../../assets/img/react-tour.png";
+import projectFourteen from "../../assets/img/react-tour-2.png";
+import project15 from "../../assets/img/react-shop.png";
+import projectFifteen from "../../assets/img/react-shop-2.png";
+import project16 from "../../assets/img/chatbot-1.png";
+import projectSixteen from "../../assets/img/chatbot-2.png";
 
 
 export {
     project0,
-    projectCero,
+    projectZero,
     project1,
-    projectUno,
+    projectOne,
     project2,
-    projectDos,
-    project3,
-    projectTres,
+    projectTwo,
     project4,
-    projectCuatro,
+    projectFour,
     project5,
-    projectCinco,
+    projectFive,
     project6,
-    projectSeis,
+    projectSix,
     project7,
-    projectSiete,
+    projectSeven,
     project8,
-    projectOcho,
+    projectEight,
     project9,
-    projectNueve,
+    projectNine,
     project10,
-    projectDiez,
+    projectTen,
     project11,
-    projectOnce,
+    projectEleven,
     project12,
-    projectDoce,
+    projectTwelve,
     project13,
-    projectTrece,
+    projectThirteen,
     project14,
-    projectCatorce,
+    projectFourteen,
+    project15,
+    projectFifteen,
+    project16,
+    projectSixteen,
 }
