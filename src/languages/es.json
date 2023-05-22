@@ -1,17 +1,14 @@
 {
-    
     "navbar-home":"Inicio",
     "navbar-about":"Sobre mi",
     "navbar-portfolio":"Portfolio",
     "navbar-contact":"Contacto",
  
-
   "home-title": "Martín Morondo",
-  "home-subtitle": "Tengo 23 años y soy Desarrollador Front End. Actualmente soy estudiante de Ingeniería de Sistemas, cursando tercer año. Me apasiona la tecnología, aprender nuevas habilidades y dar soluciones óptimas y eficientes a cualquier problema.",
+  "home-subtitle": "Soy un apasionado desarrollador Front-End. Actualmente, estoy cursando el tercer año de Ingeniería de Sistemas, lo que me permite combinar mis conocimientos teóricos con la práctica en el mundo real. Mi objetivo es proporcionar soluciones óptimas y eficientes a los desafíos tecnológicos que encuentro.",
   "btn-portfolio":"Mi portfolio",
   "btn-contact": "Contacto",
     "introData": {
-      "title": "Soy Martin Morondo",
       "animated": {
         "first": "Me encanta programar 🖥️",
         "second": "Creo sitios web geniales 🧑‍💻",
@@ -21,7 +18,6 @@
       "your_img_url": "https://4kwallpapers.com/images/walls/thumbs_3t/6196.jpg"
     },
   
-
   "about-title": "Sobre mi",
   "about-first-paragraph": "Mi nombre es Martín Morondo y actualmente estudio Ingeniería en Sistemas en la UNICEN. Soy un apasionado Desarrollador Front-end radicado en Argentina.",
   "about-second-paragraph": "Me encanta diseñar y crear sitios web responsivos o aplicaciones web desde cero. Las tecnologías, herramientas y lenguajes que uso para construir mis proyectos son HTML, CSS, Javascript, jQuery, React JS, Bootstrap, Tailwind, Git, GitHub y VS Code.",
@@ -29,7 +25,6 @@
   "btn_download-cv":"Descargar Mi CV",
   "techonologies": "Tecnologías con las que estoy familiarizado",
   
-
   "project-title": "Proyectos",
   "project-subtitle": "Proyectos en los que he trabajado últimamente  ",
   "project-subtitle-2": "¿Quieres ver más?",

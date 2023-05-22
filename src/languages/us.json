@@ -1,23 +1,21 @@
 {
-  
   "navbar-home":"Home",
   "navbar-about":"About",
   "navbar-portfolio":"Portfolio",
   "navbar-contact":"Contact",
     
-  
+
     "home-title": "I'm Martin Morondo",
-    "home-subtitle": "I am 23 years old and I am a Front End Developer. I am currently a student of Systems Engineering. I am passionate about technology, learning new skills and providing optimal and efficient solutions to any problem.",
-    "btn-portfolio":"Mi portfolio",
+    "home-subtitle": "I am a passionate Front-End developer. I am currently in my third year of Systems Engineering, which allows me to combine my theoretical knowledge with real-world practice. My goal is to provide optimal and efficient solutions to the technological challenges I encounter.",
+    "btn-portfolio":"My portfolio",
     "btn-contact": "Contact",
     "introData": {
-      "title": "Soy Martin Morondo",
       "animated": {
-        "first": "Me encanta programar 🖥️",
-        "second": "Creo sitios web geniales 🧑‍💻",
-        "third": "Desarrollo páginas web 💻"
+        "first": "I love programming 🖥️",
+        "second": "I create great websites 🧑‍💻",
+        "third": "I develop web pages 💻"
       },
-      "description": "Tengo 23 años y soy desarrollador Front End. Actualmente soy estudiante de Ingeniería de Sistemas. Me apasiona la tecnología, aprender nuevas habilidades y brindar soluciones óptimas y eficientes a cualquier problema",
+      "description": "I am 23 years old and I am a Front End Developer. I am currently a Systems Engineering student. I am passionate about technology, learning new skills and providing optimal and efficient solutions to any problem.",
       "your_img_url": "https://4kwallpapers.com/images/walls/thumbs_3t/6196.jpg"
     },
 
