@@ -11,25 +11,6 @@ section {
     font-family: Cinzel;
 }
 
-.has-first-color {
-    color: var(--primary-color);
-}
-
-.btn-portfolio {
-    background: var(--primary-color);
-    border-radius: 0;
-}
-
-.btn-portfolio a {
-    color: #000;
-    text-decoration: none;
-}
-
-.btn-about a {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
 .intro-sec {
     height: calc(100vh - 60px);
     min-height: 700px;
@@ -105,7 +86,7 @@ section {
     transition: .3s;   
     width: 400px;
     border-radius: 50%;
-    animation: profile-animate 8s ease-in-out infinite 1s
+    animation: profile-animate 8s ease-in-out infinite 1s;
 }
 
 @keyframes profile-animate {
@@ -126,18 +107,6 @@ section {
     transform: scale(0.9);
     border-radius: 30px;
 }
-
-/* .ac-btn {
-    padding: 4px 19px;
-    color: var(--secondary-color);
-    position: relative;
-    border: var(--secondary-color) 2px solid;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-    cursor: pointer;
-    border-radius: 0;
-    margin-right: 20px;
-} */
 
 .btn-10,
 .btn-10 *,
