@@ -36,6 +36,13 @@ export const About = () => {
     margin: '0'
   }
 
+  const iconsText = {
+    fontSize: '14px',
+    color: '#fff',
+    marginTop: '2px',
+    fontStyle: 'italic',
+  };
+  
   return (
     <>
       <SectionHeading dark="true" mb="3rem">
@@ -74,19 +81,22 @@ export const About = () => {
         <FormattedMessage id="techonologies" defaultMessage="Technologies" />
       </TechnologiesHeader>
 
-            <TechnologiesIcons style={technologiesIcons} className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-            {iconsData.map((iconData) => {
-            return (
-                <TechnologyIcon
-                key={iconData.id}
-                src={iconData.icon}
-                alt={iconData.name}
-                title={iconData.name}
-                {...iconData}
-                />
-            );
-        })}
-      </TechnologiesIcons>
+      <TechnologiesIcons style={technologiesIcons} className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+  {iconsData.map((iconData) => {
+    return (
+      <div key={iconData.id}>
+        <TechnologyIcon
+          src={iconData.icon}
+          alt={iconData.name}
+          title={iconData.name}
+          {...iconData}
+        />
+       <p style = {iconsText}>{iconData.name}</p>
+      </div>
+    );
+  })}
+</TechnologiesIcons>
+
     </>
   );
 };
