@@ -6,11 +6,12 @@ import tailwind from '../../assets/technologies/tailwind.svg';
 import javascript from '../../assets/technologies/javascript.svg';
 import jQuery from '../../assets/technologies/jQuery.svg';
 import reactJS from '../../assets/technologies/react.svg';
+import Typescript from '../../assets/technologies/typescript (1).png';
 import nodeJS from '../../assets/technologies/nodejs.svg';
 import git from '../../assets/technologies/git.svg';
 import github from '../../assets/technologies/github.svg';
 import npm from '../../assets/technologies/npm.svg';
-import vsc from '../../assets/technologies/vsc.svg';
+import MySQL from '../../assets/technologies/mysql (1).png';
 
 
 export const iconsData = [
@@ -32,12 +33,12 @@ export const iconsData = [
       {
         id: 4,
         icon: bootstrap,
-        name: "Tailwind CSS",
+        name: "Bootstrap",
       },
       {
         id: 5,
         icon: tailwind,
-        name: "Bootstrap",
+        name: "Tailwind CSS",
       },
       
       {
@@ -60,29 +61,34 @@ export const iconsData = [
 
       {
         id: 9,
+        icon: Typescript,
+        name: "Typescript",
+      },
+      {
+        id: 10,
         icon: nodeJS,
         name: "Node js",
       },
     
       {
-        id: 10,
+        id: 11,
         icon: git,
         name: "Git",
       },
       {
-        id: 11,
+        id: 12,
         icon: github,
         name: "GitHub",
       },
       {
-        id: 12,
+        id: 13,
         icon: npm,
         name: "npm",
       },
       {
-        id: 13,
-        icon: vsc,
-        name: "Visual Studio Code",
+        id: 14,
+        icon: MySQL,
+        name: "MySQL",
       },
 ]
 
