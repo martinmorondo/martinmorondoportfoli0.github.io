@@ -81,12 +81,14 @@ section {
 .intro-sec .h-bg-image {
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 600px;
     position: relative;
-    transition: .3s;   
-    width: 400px;
+    transition: .5s;   
+    width: 420px;
     border-radius: 50%;
     animation: profile-animate 8s ease-in-out infinite 1s;
+    filter: saturate(1) brightness(0.7) contrast(1.5) sepia(0.3) hue-rotate(280deg);
+    transform: scale(0.85);
 }
 
 @keyframes profile-animate {
@@ -104,8 +106,10 @@ section {
 }
 
 .intro-sec .h-bg-image:hover {
-    transform: scale(0.9);
-    border-radius: 30px;
+  filter: saturate(1) brightness(1) contrast(1) sepia(0) hue-rotate(360deg);
+  transform: scale(0.9);
+  border-radius: 30px;
+  outline: none;
 }
 
 .btn-10,
@@ -378,10 +382,6 @@ section {
     font-size: 14px;
     line-height: 1.3;
     color: var(--text-color)
-}
-
-.intro-sec .h-bg-image {
-    filter: saturate(0.5);
 }
 
 .languages-container {

@@ -10,7 +10,7 @@ import {
 import { SectionHeading, SectionTitle } from "./SectionHeading";
 import { StyledParagraph } from "./Typography.styled";
 import downloadIcon from "./svg/donwload-icon.svg";
-import resume from "../../assets/img/CV_MartínMorondo.pdf";
+import resume from "../../assets/img/CV_MartinMorondo.pdf";
 import { LanguagesContext } from '../../context/LanguagesContext';
 import { FormattedMessage } from "react-intl";
 
