@@ -60,7 +60,7 @@ export const projectData = [
         transitionImage: projectTwo,
         title: "Own Webpage",
         codeLink: "https://github.com/martinmorondo/My-website",
-        liveLink: "https://recursosparaprogramadore5.ml/",
+        liveLink: "https://deft-manatee-984db6.netlify.app/",
       },
       {
         id: 3,
